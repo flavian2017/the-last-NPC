@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../styles/signin.css" rel="stylesheet"/>
+    <title>The Last NPC</title>
+</head>
+<body>
+        <img id="title-image" src="../images/npc_title.jpeg" alt="game title"/>
+        <div class="card">
+            <h2>Sign In</h2>
+            <form method="POST" action="../db/signin.php">
+                <label for="username">Username:</label>
+                <input class= "input-type" type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input class= "input-type" type="password" id="password" name="password"><br><br>
+                <input id="submit-btn" type="submit" value="Sign In">
+                <input id="reset-btn" type="reset" value="reset">
+            </form>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p><a href="../index.html">Home</a></p>
+        </div>
+</body>
+</html>

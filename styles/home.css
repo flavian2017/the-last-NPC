@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+h1, #title-para  {
+    text-align: center;
+}
+
+.characters {
+    width: 50px;
+}
+
+#warning {
+    margin-top: 100px;
+    font-size: 11px;
+}
+
+.start-btn {
+    margin-top: 15px;
+    color: white;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #df4269;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.start-btn a {
+    text-decoration: none;
+}
+
+#map-info, #char-info {
+    display: none;
+}

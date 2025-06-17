@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana;
+}
+
+.side-container {
+    background-color: rgba(211, 211, 211, 0.081);
+    border-radius: 20px;
+}
+
+#profile-card {
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.game-card {
+    display: flex; 
+    flex-direction: column;
+}
+
+canvas {
+    cursor: url('../characters/mouse-icon/npc.png'), auto;
+    object-fit: contain;
+
+}
+#profile {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.select-char {
+    width: 30px;
+    cursor: pointer;
+}
+
+.select-char-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#button-start {
+    background-color: #a3fac7;
+    padding: 12px;
+}
+
+#button-restart {
+    background-color: #e5e5e5;
+    padding: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#map {
+    width: 50%;
+    margin: 10px;
+}
+
+#game-bar {
+    display: flex;
+    justify-content: start;
+}
+
+#timer {
+    display: flex;
+}
+
+#leaderboard {
+    margin-left: 10px;
+    text-align: center;
+    width: 35%;
+}
+
+.table-styles {
+    font-size: 15px;
+    border: 3;
+    /* border-style: solid;
+    border-color: aliceblue; */
+}

@@ -1,0 +1,79 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<title>The last NPC</title>
+	<link href="styles/styles.css" rel="stylesheet"/>
+
+	<script>
+		window.onload = function() {
+		  window.location.href = "/views/signup.html";
+		};
+	  </script>
+</head>
+<body>
+
+	<div id="profile">
+		<div id="profile-card" class="side-container">
+			<p>name : jhon doe</p>
+			<p>rank : Grandmaster</p>
+			<p>points : 3000</p>
+			<p>maps unlocked : 3/5</p>
+		</div>
+
+		<div id="profile-card"  class="side-container game-card">
+			<div class="select-char-container">
+				<img  class="select-char" src="npc_char.png"/>
+				<img  class="select-char" src="simplePC_char.png"/>
+				<img  class="select-char" src="hawks_eye_char.png"/>
+				<img  class="select-char" src="armorPC_char.png"/>
+				<img  class="select-char" src="snapy.png"/>
+			</div>
+			<p id= "completed">creeper:<br>this bot escaped a world where there were only cubes.<br></p>
+			<button id="button-start">START</button>
+		</div>
+	</div>
+
+	<div id="map">
+		<canvas id="gameCanvas"></canvas>
+	</div>
+
+	<div id="leaderboard" class="side-container">
+
+		<div id="game-bar">
+			<div id="timer">
+				<p id= "second">00 </p>
+				<p> : </p>
+				<p id= "millisecond">00 </p>
+			</div>
+		</div>
+		
+		<div class="Table">
+			<table border="1">
+				<tr>
+					<th colspan="3">Game Scores</th>
+				</tr>
+				<tr>
+					<th>Name</th>
+					<th>Score</th>
+					<th>Highscore</th>
+				</tr>
+				<tr>
+					<td>Player 1</td>
+					<td>1500</td>
+					<td rowspan="2">2000</td>
+				</tr>
+				<tr>
+					<td>Player 2</td>
+					<td>1800</td>
+				</tr>
+				<tr>
+					<td colspan="2">Highest Score:</td>
+					<td>2000</td>
+				</tr>
+			</table>
+	</div>
+
+	<script src="/js/index.js"></script> 
+</body>
+
+</html>

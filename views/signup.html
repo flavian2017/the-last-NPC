@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-Up Page</title>
+    <link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Sign-Up Page</h2>
+
+        <form action="../db/signup.php" method="POST">
+            <div>
+                <label>Username:</label>
+                <input type="text" name="username" required>
+            </div><br><br>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" required>
+            </div><br><br>
+            
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password"  required>
+            </div><br><br>
+            
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label>Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label>Female</label>
+            </div> <br><br>
+            
+            <div>
+                <label>Game experience:</label>
+                <input type="checkbox" id="coding" name="interests[]" value="coding">
+                <label>Beginner</label>
+                <input type="checkbox" id="music" name="interests[]" value="music">
+                <label>Amature</label>
+                <input type="checkbox" id="sports" name="interests[]" value="sports">
+                <label>Expert</label>
+            </div><br><br>
+            
+            <div>
+                <label>Country:</label>
+                <select id="country" name="country">
+                    <option value="in">India</option>
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="au">Australia</option>
+                </select>
+            </div><br><br>
+            
+            <div>
+                <label>Tell something about yourself:</label>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+            </div><br><br>
+           
+            <div>
+                <label>Choose your Theme:</label>
+                <input type="color" name="theme">
+            </div><br><br>  
+            <div>  
+                <label>Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div><br><br> 
+            <div> <!--
+                <label>Appointment:</label>
+                <input type="datetime-local" id="appointment" name="appointment">
+            </div><br><br>  
+            <div>
+                <label>Profile Picture:</label>
+                <input type="file" id="profile-pic" name="profile-pic">
+            </div><br><br>   --> 
+            <div>
+                <label>Phone Number:</label>
+                <input type="number" name="phno">
+            </div><br><br>
+            <div> 
+                <label>Your social:</label>
+                <input type="url" id="website" name="website">
+            </div><br><br>
+            <div> <!--
+                <label>Preferred Time:</label>
+                <input type="time" id="time" name="time">
+            </div><br><br>
+            <div>
+                <label>Search:</label>
+                <input type="search" id="search" name="search">
+            </div><br><br>
+            <div>
+                <label>Age:</label>
+                <input type="range" id="range" name="range" min="1" max="100">
+            </div><br><br>
+            
+            <div>
+                <label for="image">Submit Image:</label>
+                <input type="image" id="image" name="image" src="something.png" alt="Describe the image here">
+            </div><br><br> -->
+
+            <div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
