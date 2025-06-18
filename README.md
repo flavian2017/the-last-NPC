@@ -18,3 +18,5 @@
 - **JavaScript**
 - **Canvas API**
 - **Mouse Tracking Logic**
+
+*Note: To run the game locally, you need to download the folder and run it using xampp server.
